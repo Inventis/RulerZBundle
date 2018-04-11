@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "homepage": "https://github.com/K-Phoen/RulerZBundle",
-    "description": "Symfony2 Bundle for RulerZ",
+    "description": "Symfony Bundle for RulerZ",
     "keywords": ["specification", "doctrine", "ruler", "rulerz"],
     "authors": [
         {
