@@ -14,6 +14,12 @@
     "autoload": {
         "psr-4": { "KPhoen\\RulerZBundle\\": "" }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Inventis/rulerz-bridge.git"
+        }
+    ],
     "require": {
         "kphoen/rulerz": "~0.17,>=0.19.3",
         "inventis/rulerz-bridge": "dev-master",
