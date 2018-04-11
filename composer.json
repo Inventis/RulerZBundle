@@ -1,9 +1,9 @@
 {
-    "name": "kphoen/rulerz-bundle",
+    "name": "inventis/rulerz-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "homepage": "https://github.com/K-Phoen/RulerZBundle",
-    "description": "Symfony2 Bundle for RulerZ",
+    "description": "Symfony Bundle for RulerZ",
     "keywords": ["specification", "doctrine", "ruler", "rulerz"],
     "authors": [
         {
@@ -16,7 +16,7 @@
     },
     "require": {
         "kphoen/rulerz": "~0.17,>=0.19.3",
-        "kphoen/rulerz-bridge": "^1.0",
+        "inventis/rulerz-bridge": "dev-master",
         "symfony/validator": "^2.8|^3.0|^4.0",
         "symfony/framework-bundle": "^2.8|^3.0|^4.0"
     },
