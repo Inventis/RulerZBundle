@@ -11,12 +11,18 @@
             "email": "contact@kevingomez.fr"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Inventis/rulerz-bridge.git"
+        }
+    ],
     "autoload": {
         "psr-4": { "KPhoen\\RulerZBundle\\": "" }
     },
     "require": {
         "kphoen/rulerz": "~0.17,>=0.19.3",
-        "kphoen/rulerz-bridge": "^1.0",
+        "kphoen/rulerz-bridge": "dev-symfony4",
         "symfony/validator": "^2.8|^3.0|^4.0",
         "symfony/framework-bundle": "^2.8|^3.0|^4.0"
     },
